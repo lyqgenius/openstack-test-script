@@ -26,3 +26,7 @@ s.query(models.ComputeNode).first()
 s.rollback()
 s.close()
 
+
+cn = objects.ComputeNode(context)
+cn.memory_mb_used
+
